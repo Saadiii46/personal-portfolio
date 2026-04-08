@@ -50,16 +50,15 @@ const PROJECTS = [
     title: "Web Magnetism Landing",
     category: "SEO",
     image: "/images/web-magnetism.png",
-    tech: ["TypeScript", "Stripe", "Node.js"],
+    tech: ["Javascript", "Tailwind", "React"],
     color: "from-orange-500/20 to-red-500/20",
   },
   {
     id: 4,
-    title: "Aura Social",
-    category: "Social Media",
-    image:
-      "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?auto=format&fit=crop&q=80&w=800",
-    tech: ["Next.js", "Firebase", "Motion"],
+    title: "Rentup Landing",
+    category: "Business",
+    image: "/images/rentup.png",
+    tech: ["React", "Javascript", "Tailwind"],
     color: "from-green-500/20 to-emerald-500/20",
   },
 ];
@@ -68,8 +67,7 @@ export default function App() {
   const [copied, setCopied] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
   const heroVideoUrl = "/videos/0408.mp4";
-  const projectVideoUrl =
-    "https://storage.googleapis.com/ai-sandbox-videofx/video/8cea56d6-8324-4a25-9688-60cec3128331?GoogleAccessId=labs-ai-sandbox-videoserver-prod@system.gserviceaccount.com&Expires=1775652369&Signature=BDRuSUO0QTTpsfuuENWaxFle1NPMYPvRig8TQDXyi4Re%2BqSq4AzgHpNXiiQEyOCmQZY4AQD546Lm%2F4V1smBMF8o4xhX3AyVXxj8LVgNVHes0q2jr5mUr280%2BmzT%2BsR5y7noJzbvuepWufaTpaBJawOE%2BW0o0QCxSZN3kEORxY333LNKh4mIm%2FtchaNYYK5OhxU2iqaqVXj7vjoZUIVFJXARN1qiAZUlPqM6j6gfx%2B4jTj7JBIwrjlvojCKNPr%2BzoRlGqBnELd2CTWLyrZv8SildgSlDSbfndLmxZD6sHxKksgp2CZyO1Y2zbxD5Qifyjo0gFzsfO58c4115akKcY9w%3D%3D";
+  const projectVideoUrl = "/videos/NN.mp4";
 
   const copyEmail = () => {
     navigator.clipboard.writeText("muhammadsaadkhalid82@gmail.com");
